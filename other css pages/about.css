@@ -12,6 +12,7 @@ header{
 }
 h1{
     font-size: 1em;
+    font-style:oblique ;
 }
 .nav{
     width: 80%;
@@ -20,7 +21,7 @@ h1{
     display: flex;
     justify-content:  space-around;
     padding: 10px;
-    background-color: violet;
+    background-color: rgb(158, 113, 158);
 }
 ul{
     display: flex;
@@ -28,12 +29,12 @@ ul{
 }
 ul a li{
     font-style: italic;
-    color: antiquewhite;
+    color: white;
     font-weight: 300;
 }
-.fa-regular{
+.fa-bars{
     font-size: 1.5em;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 @media(max-width:940px){
     nav{
@@ -49,29 +50,9 @@ ul a li{
     }
 }
 @media(max-width:550px){
-    nav{
+       nav{
         width: 100%;
     }
+
 }
-section{
-    justify-content: center;
-}
-.hero-sect{
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    gap: 2em;
-}
-.hero-sect img{
-    border-radius: 40px;
-}
-.hero-sect p{
-    font-style: italic;
-    line-height: 1.5;
-}
-@media(max-width:1100px){
-    .hero-sect{
-        flex-direction: column;
-    }
-}
+ 
